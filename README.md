@@ -13,8 +13,6 @@
 6.model.py用于建立模型，利用tensorflow搭建了一个包含输入层、卷积层-激励层-池化层、卷积层-激励层-池化层、全连接层和输出层的简单的神经网络。
   运行时需要命令行传参，两个参数按顺序分别为训练集文件夹名和模型名，本项目中即 python train.py pic model
   
-7.model文件夹用于存储训练好的模型，方便predict时调用。
-
 7.predict.py为预测文件，根据model中的模型进行检测，需要先把处理好的需要识别的文件放入test中，然后用predict进行预测，结果进行了简单的图形化展示。
   运行时同样需要命令行传参，三个参数分别为测试集文件夹名、模型名、记录表格名，此项目中为python predict.py test model record.csv
   
