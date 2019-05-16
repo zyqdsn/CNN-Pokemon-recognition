@@ -1,3 +1,5 @@
+利用tensorflow搭建简单的神经网络，训练宝可梦的识别模型
+
 1.本项目的开发环境为python3.6+tensorflow 1.120 GPU版本，以及其他的一些python有关机器学习和图像处理的包。
 
 2.getdata.py为从百度获取训练图片的爬虫脚本。
